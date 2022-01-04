@@ -4,7 +4,7 @@ This project is a very great example for Merge Sorting algorithm. If you have a 
 This algorithm is really easy! we divide array till we have an array with 1 element and naturally one element, is sorted. so we merge sorted array to each other till all of element get sorted.
 also in merge part, we dont need to use any loop, we use recursion to merge 2 one element arrays to 1 two element array and ...
 # Time:
-<u><i>T = θ(nlgn) </i></u>
+<u><i>T = θ(nlogn) </i></u>
 
 (n is number of elements and T is not necessarily seconds)
 
