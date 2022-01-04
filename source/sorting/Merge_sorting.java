@@ -11,7 +11,7 @@ public class Merge_sorting {
 	public int[] get() {
 		return input_array;
 	}
-	// divide arrays by recursive method
+	// divide arrays by recursion method
 	private void merge_sort(int p, int r) {
 		int q = (int) Math.floor((p + r) / 2);
 		if (p < r) {
@@ -24,7 +24,7 @@ public class Merge_sorting {
 	private void merge(int p, int q, int r) {
 		int n1 = q - p + 1;
 		int n2 = r - q;
-		// make left and tight array of divided index:
+		// create left and right array of dividend indexes:
 		int[] array1 = new int[n1];
 		int[] array2 = new int[n2];
 		// put unordered elements in right and left arrays:
